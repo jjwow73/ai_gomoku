@@ -105,7 +105,7 @@ RealTime Decision을 지향했기 때문에 Cutoff가 발생했을 경우 Termin
     return res
 ```
 
-![image-20200630230644216](.\img\image-20200630230644216.png)
+<img src=".\img\image-20200630230644216.png" alt="image-20200630230644216" style="zoom:67%;" />
 
 *five_in_row*는 게임의 승리 조건인 5개가 연속으로 있는 경우로, 가중치가 매우 높게 부여됐고 _four_in_row_ 또한 승리와 매우 가깝기 때문에 큰 값에 대응된다. 점점 feature의 중요도가 낮아질수록 가중치 또한 비례해 낮아진다. 이를 위해 사용한 함수는 아래와 같다.
 
